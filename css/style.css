@@ -14,7 +14,7 @@ li{
     border-radius: 10px;
 }
 footer{
-    background: url(/img/footer-bg.svg) no-repeat;
+    background: url(../img/footer-bg.svg) no-repeat;
     background-size: cover;
 }
 input{
