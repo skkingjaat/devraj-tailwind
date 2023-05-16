@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>FAQ</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/js/script.js">
+</head>
+
+<body>
+    <nav class="bg-[#0B244A] py-3">
+        <div class="w-full mx-auto px-5 sm:px-10 md:px-20">
+            <div class="flex justify-between items-center">
+                <div class="flex">
+                    <div>
+                        <a href="/index.html" class="flex items-center py-2 px-2">
+                            <img src="/img/logo.jpg" alt="" class="w-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-10 text-white">
+                    <a href="index.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Home</a>
+                    <a href="work.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">How it
+                        works</a>
+                    <a href="security.html"
+                        class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Security</a>
+                    <a href="faq.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">FAQ
+                    </a>
+                    <a href="contact.html"
+                        class="border-b-2 border-transparent hover:border-white font-semibold duration-300">Contact</a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class=" w-6 h-6 text-white" x-show="!showMenu" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu md:hidden">
+            <ul class=" flex flex-col justify-center text-white items-center gap-5">
+                <a href="index.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Home</a>
+                <a href="work.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">How it
+                    works</a>
+                <a href="security.html"
+                    class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Security</a>
+                <a href="faq.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">FAQ
+                </a>
+                <a href="contact.html"
+                    class="border-b-2 border-transparent hover:border-white font-semibold duration-300">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <main class="p-5 sm:p-10">
+        <h2
+            class="text-4xl text-[#0B244A] w-fit mx-auto flex justify-center text-center font-bold relative py-4 after:absolute after:bottom-0  after:w-full after:h-1 after:bg-gray-500">
+            Do You Have Questions?</h2>
+        <p class="text-lg my-5 font-normal text-justify mx-auto capitalize">Lorem ipsum, dolor Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Dignissimos soluta labore laboriosam, magnam cumque enim omnis. Voluptatem
+            expedita fuga labore voluptate, a mollitia quos dolor magnam quas doloribus id ea nostrum laboriosam
+            cupiditate enim aliquid dolore pariatur? Quos, necessitatibus magni. sit amet consectetur adipisicing elit.
+            Obcaecati, vel quia laborum quo facilis molestias at ea dolores ad, veritatis, adipisci sint temporibus
+            omnis. Sapiente ducimus eius voluptates eum quaerat?</p>
+    </main>
+    <div class="faq my-10">
+        <div class="mx-auto px-5 sm:px-10">
+            <div class="flex flex-col items-center">
+                <h2 class="font-bold text-4xl mt-5 text-[#0B244A]">
+                    FAQ
+                </h2>
+                <p class="text-neutral-500  text-lg font-normal mt-3 capitalize">
+                    Frequenty asked questions
+                </p>
+            </div>
+            <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="text-[#0B244A]">DO I QUALIFY?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                            <div class="point flex gap-3">
+                                <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                                <p class="text-black capitalize text-lg font-normal">You must be over 18 years of age.</p>
+                            </div>
+                            <div class="point flex gap-3">
+                                <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                                <p class="text-black capitalize text-lg font-normal">You must make at least $1,000 a month.</p>
+                            </div>
+                            <div class="point flex gap-3">
+                                <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                                <p class="text-black capitalize text-lg font-normal">You must have a working checking account.</p>
+                            </div>
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="text-[#0B244A]">What is a Payday Loan?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 text-lg font-normal mt-3 group-open:animate-fadeIn capitalize">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex? Quos mollitia est delectus eos quis rem, quisquam maiores, eveniet, distinctio sit consequuntur? Iusto sequi aliquam debitis, molestias ducimus consectetur!
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="text-[#0B244A]">How Much Can I Receive?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 text-lg font-normal mt-3 group-open:animate-fadeIn capitalize">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet unde, rerum ea quibusdam ab numquam itaque neque exercitationem consectetur commodi facilis totam mollitia quidem iure fugiat repudiandae odit suscipit doloribus nemo autem! Facilis quo omnis, impedit dolorum alias dicta!
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="capitalize text-[#0B244A]">can i get one with bad credit?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 text-lg font-normal mt-3 group-open:animate-fadeIn capitalize">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate odio, aliquid nobis ab facilis odit mollitia. Eveniet quod perspiciatis quae nesciunt rerum ratione voluptates, aspernatur beatae voluptatem nemo amet, quas dicta magnam vel nostrum reprehenderit?
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="capitalize text-[#0B244A]">how long is the approval process?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 text-lg font-normal mt-3 group-open:animate-fadeIn capitalize">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum rem repellendus ullam labore vitae magnam adipisci ipsa magni hic similique, quae laudantium obcaecati itaque.
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="capitalize text-[#0B244A]">can i get direct deposit?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 text-lg font-normal mt-3 group-open:animate-fadeIn capitalize">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam eveniet voluptatem eos aliquam id quis distinctio assumenda? Quis facilis deleniti dolore itaque rem deserunt sit, ad explicabo ipsam voluptates dignissimos, nemo aut? Unde odio ipsum nisi alias, soluta earum!
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <span class="capitalize text-[#0B244A]">when is repayment due?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 text-lg font-normal mt-3 group-open:animate-fadeIn capitalize">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quaerat itaque et harum optio non nobis quis quidem dolores. Necessitatibus vel beatae magnam exercitationem eius molestiae tempore quis, expedita totam maiores libero nisi fuga mollitia illum similique? Ea, est delectus?
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-10 px-5 sm:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="" class="w-60">
+        </div>
+        <div class="quick-links text-white">
+            <h2 class="text-4xl mb-3 font-medium">Quick Links</h2>
+            <div class="list flex flex-col gap-4">
+                <li><a href="index.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Home</a></li>
+                <li><a href="work.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">How it works</a></li>
+                <li><a href="security.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Security</a></li>
+                <li><a href="faq.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">FAQ</a></li>
+                <li><a href="contact.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Contact</a></li>
+            </div>
+        </div>
+        <div class="contact text-white">
+            <h2 class="text-4xl mb-3 font-medium">Contact Us</h2>
+            <div class="list flex flex-col gap-4">
+                <li><a href="#" class="text-base font-normal py-1">Phone : +1 650-741-5484</a></li>
+                <li><a href="#" class="text-base font-normal py-1">Email : contacts@company.com</a></li>
+                <li><a href="#" class="text-base font-normal py-1">254 Walt Whitman Road Brooklyn, NY 11219</a></li>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 600
+        });
+
+        ScrollReveal().reveal('.h1', { delay: 500, origin: 'bottom' });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+</body>
+
+</html>

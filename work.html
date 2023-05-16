@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Work</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/js/script.js">
+</head>
+
+<body>
+    <nav class="bg-[#0B244A] py-3">
+        <div class="w-full mx-auto px-5 sm:px-10 md:px-20">
+            <div class="flex justify-between items-center">
+                <div class="flex">
+                    <div>
+                        <a href="/index.html" class="flex items-center py-2 px-2">
+                            <img src="/img/logo.jpg" alt="" class="w-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-10 text-white">
+                    <a href="index.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Home</a>
+                    <a href="work.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">How it
+                        works</a>
+                    <a href="security.html"
+                        class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Security</a>
+                    <a href="faq.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">FAQ
+                    </a>
+                    <a href="contact.html"
+                        class="border-b-2 border-transparent hover:border-white font-semibold duration-300">Contact</a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class=" w-6 h-6 text-white" x-show="!showMenu" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu md:hidden">
+            <ul class=" flex flex-col justify-center text-white items-center gap-5">
+                <a href="index.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Home</a>
+                <a href="work.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">How it
+                    works</a>
+                <a href="security.html"
+                    class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Security</a>
+                <a href="faq.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">FAQ
+                </a>
+                <a href="contact.html"
+                    class="border-b-2 border-transparent hover:border-white font-semibold duration-300">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <main class="p-5 sm:p-10">
+        <h2 class="text-4xl text-[#0B244A] w-fit mx-auto flex justify-center text-center font-bold relative py-4 after:absolute after:bottom-0  after:w-full after:h-1 after:bg-gray-500">How Our Simple Process Works</h2>
+        <p class="text-lg my-5 font-normal text-center w-full md:w-3/4 mx-auto capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, vel quia laborum quo facilis molestias at ea dolores ad, veritatis, adipisci sint temporibus omnis. Sapiente ducimus eius voluptates eum quaerat?</p>
+        <div class="card grid grid-cols-1 md:grid-cols-2 md:py-5 gap-10">
+            <div class="box p-5 flex flex-col text-justify gap-3 text-[#0B244A]">
+                <h3 class="text-2xl mb-3 font-semibold text-[#0B244A]">There are a few guidelines many of our providers ask that you must meet in order to get approved :</h3>
+                <div class="point flex gap-3">
+                    <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                    <p class="text-black text-lg font-normal">You must be over 18 years of age.</p>
+                </div>
+                <div class="point flex gap-3">
+                    <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                    <p class="text-black text-lg font-normal">You must make at least $1,000 a month.</p>
+                </div>
+                <div class="point flex gap-3">
+                    <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                    <p class="text-black text-lg font-normal">You must have a working checking account.</p>
+                </div>
+            </div>
+            <div class="box p-5 flex flex-col text-justify gap-3 text-[#0B244A]">
+                <h3 class="text-2xl mb-3 font-semibold text-[#0B244A]">You might also be required to have  the following</h3>
+                <div class="point flex gap-3">
+                    <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                    <p class="text-black">A drivers license, or some from of identification.</p>
+                </div>
+                <div class="point flex gap-3">
+                    <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                    <p class="text-black">A copy of your bank statement.</p>
+                </div>
+                <div class="point flex gap-3">
+                    <div class="sign text-xl"><i class="fa-solid fa-caret-right"></i></div>
+                    <p class="text-black">A voided personal check.</p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <div class="payday-loan py-10">
+        <h2 class="text-4xl px-5 mb-10 w-fit mx-auto text-[#0B244A] flex justify-center text-center font-bold relative py-4 after:absolute after:bottom-0  after:w-full after:h-1 after:bg-gray-500">AMERICAN PAYDAY LOAN</h2>
+        <img src="/img/work-payday.jpg" alt="" class="object-cover w-full">
+        <p class="text-lg font-normal mt-10 mb-5 px-5 md:px-10 capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officia cum velit placeat.</p>
+        <p class="text-lg font-normal px-5 md:px-10 capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta pariatur, laudantium dolorum rerum quibusdam minus unde quis quod debitis magnam voluptates corrupti! Fuga excepturi eius obcaecati beatae ab quasi deserunt, eaque expedita eos optio consectetur aliquam repellendus, cum pariatur laudantium?</p>
+    </div>
+    <footer class="py-10 px-5 sm:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="" class="w-60">
+        </div>
+        <div class="quick-links text-white">
+            <h2 class="text-4xl mb-3 font-medium">Quick Links</h2>
+            <div class="list flex flex-col gap-4">
+                <li><a href="index.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Home</a></li>
+                <li><a href="work.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">How it works</a></li>
+                <li><a href="security.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Security</a></li>
+                <li><a href="faq.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">FAQ</a></li>
+                <li><a href="contact.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Contact</a></li>
+            </div>
+        </div>
+        <div class="contact text-white">
+            <h2 class="text-4xl mb-3 font-medium">Contact Us</h2>
+            <div class="list flex flex-col gap-4">
+                <li><a href="#" class="text-base font-normal py-1">Phone : +1 650-741-5484</a></li>
+                <li><a href="#" class="text-base font-normal py-1">Email : contacts@company.com</a></li>
+                <li><a href="#" class="text-base font-normal py-1">254 Walt Whitman Road Brooklyn, NY 11219</a></li>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+    <script>
+        ScrollReveal({ reset: true,
+        distance:'60px',
+        duration:2500,
+        delay:600
+     });
+
+     ScrollReveal().reveal('.h1', { delay: 500 , origin:'bottom'});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+</body>
+
+</html>

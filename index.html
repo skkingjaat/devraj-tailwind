@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/js/script.js">
+</head>
+
+<body>
+    <nav class="bg-[#0B244A] py-3">
+        <div class="w-full mx-auto px-5 sm:px-10 md:px-20">
+            <div class="flex justify-between items-center">
+                <div class="flex">
+                    <div>
+                        <a href="/index.html" class="flex items-center py-2 px-2">
+                            <img src="/img/logo.jpg" alt="" class="w-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-10 text-white">
+                    <a href="index.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Home</a>
+                    <a href="work.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">How it
+                        works</a>
+                    <a href="security.html"
+                        class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Security</a>
+                    <a href="faq.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">FAQ
+                    </a>
+                    <a href="contact.html"
+                        class="border-b-2 border-transparent hover:border-white font-semibold duration-300">Contact</a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class=" w-6 h-6 text-white" x-show="!showMenu" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu md:hidden">
+            <ul class=" flex flex-col justify-center text-white items-center gap-5">
+                <a href="index.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Home</a>
+                <a href="work.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">How it
+                    works</a>
+                <a href="security.html"
+                    class="font-semibold border-b-2 border-transparent hover:border-white duration-300">Security</a>
+                <a href="faq.html" class="font-semibold border-b-2 border-transparent hover:border-white duration-300">FAQ
+                </a>
+                <a href="contact.html"
+                    class="border-b-2 border-transparent hover:border-white font-semibold duration-300">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <main class="p-5 sm:p-10">
+        <h2 class="text-4xl text-[#0B244A] w-fit mx-auto flex justify-center text-center font-bold relative py-4 after:absolute after:bottom-0  after:w-full after:h-1 after:bg-gray-500">America's Favourite Way to Get Paid</h2>
+        <p class="text-lg my-5 font-normal text-center w-full md:w-3/4 mx-auto capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, vel quia laborum quo facilis molestias at ea dolores ad, veritatis, adipisci sint temporibus omnis. Sapiente ducimus eius voluptates eum quaerat?</p>
+        <div class="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-5 md:py-10 gap-10">
+            <div class="box text-center p-5">
+                <h3 class="text-2xl mb-3 font-semibold text-[#0B244A]">Online or In-Person</h3>
+                <p class="text-justify capitalize">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et optio ab eaque officiis hic repellat voluptate praesentium commodi voluptatum aut dolorum quos excepturi sunt assumenda doloremque accusantium architecto maxime vero fugit, eius labore totam illo? Repellendus minima modi reprehenderit quo.</p>
+            </div>
+            <div class="box text-center p-5">
+                <h3 class="text-2xl mb-3 font-semibold text-[#0B244A]">A Safe Way To Sign Up</h3>
+                <p class="text-justify capitalize">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et optio ab eaque officiis hic repellat voluptate praesentium commodi voluptatum aut dolorum quos excepturi sunt assumenda doloremque accusantium architecto maxime vero fugit, eius labore totam illo? Repellendus minima modi reprehenderit quo.</p>
+            </div>
+            <div class="box text-center p-5">
+                <h3 class="text-2xl mb-3 font-semibold text-[#0B244A]">Easy Process</h3>
+                <p class="text-justify capitalize">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et optio ab eaque officiis hic repellat voluptate praesentium commodi voluptatum aut dolorum quos excepturi sunt assumenda doloremque accusantium architecto maxime vero fugit, eius labore totam illo? Repellendus minima modi reprehenderit quo.</p>
+            </div>
+        </div>
+        <div class="form box bg-[#0B244A] p-10 max-w-xl max-h-[600px] mx-auto">
+            <input type="text" placeholder="Full Name" class="w-full h-10 capitalize">
+            <input type="text" placeholder="Address" class="w-full h-10 my-5 capitalize">
+            <input type="number" placeholder="Phone Number" maxlength="10" min="0" class="w-full h-10">
+            <input type="number" placeholder="Alternative Phone Number" maxlength="10" min="0" class="w-full h-10 my-5">
+            <input type="text" required placeholder="Email" class="w-full h-10 capitalize">
+            <input type="number" min="100" max="100000" placeholder="Loan Amount" class="w-full h-10 mt-5 mb-2">
+            <div class="date-time w-full mx-auto mt-3 mb-10">
+                <h2 class="text-2xl font-semibold mb-3 text-white text-center">Best time to call <i class="fa-solid fa-phone-volume"></i></h2>
+                <input type="datetime-local" min="16-5-2023 3:49" class="w-full">
+            </div>
+            
+            <li class="mx-auto w-fit"><a href="#" class="rounded-[10px] text-xl text-white bg-gray-600 hover:bg-gray-500  px-10 py-3 ">Submit</a></li>
+        </div>
+    </main>
+    <div class="payday-loan">
+        <h2 class="text-4xl px-5 mb-10 w-fit mx-auto text-[#0B244A] flex justify-center text-center font-bold relative py-4 after:absolute after:bottom-0  after:w-full after:h-1 after:bg-gray-500">AMERICAN PAYDAY LOAN</h2>
+        <img src="/img/payday-loan.jpg" alt="" class="object-cover w-full mb-10">
+        <div class="form-img mx-auto w-fit">
+            
+            
+        </div>
+        
+    </div>
+    <div class="relief p-5 sm:p-10 grid grid-cols-1 md:grid-cols-2 items-center gap-5 sm:gap-10">
+        <div class="content order-2 md:order-1">
+                <h3 class="text-4xl mb-5 font-semibold text-[#0B244A]">These days, many need relief :</h3>
+                <p class="text-lg font-normal text-justify capitalize">Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veritatis amet tempora laborum dolore suscipit consequatur, ducimus, ratione nam dolorum numquam dignissimos aperiam voluptas minus? Nam nisi quis at ratione? adipisicing elit. Et optio ab eaque officiis hic repellat voluptate praesentium commodi voluptatum aut dolorum quos excepturi sunt assumenda doloremque accusantium architecto maxime vero fugit, eius labore totam illo? Repellendus minima modi reprehenderit quo.</p>
+        </div>
+        <div class="img order-1 md:order-2">
+            <img src="/img/relief.png" alt="" class="object-cover w-full">
+        </div> 
+    </div>
+    <footer class="py-10 px-5 sm:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="" class="w-60">
+        </div>
+        <div class="quick-links text-white">
+            <h2 class="text-4xl mb-3 font-medium">Quick Links</h2>
+            <div class="list flex flex-col gap-4">
+                <li><a href="index.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Home</a></li>
+                <li><a href="work.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">How it works</a></li>
+                <li><a href="security.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Security</a></li>
+                <li><a href="faq.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">FAQ</a></li>
+                <li><a href="contact.html" class="w-fit text-base font-normal py-1 border-b-2 border-transparent hover:border-white duration-300">Contact</a></li>
+            </div>
+        </div>
+        <div class="contact text-white">
+            <h2 class="text-4xl mb-3 font-medium">Contact Us</h2>
+            <div class="list flex flex-col gap-4">
+                <li><a href="#" class="text-base font-normal py-1">Phone : +1 650-741-5484</a></li>
+                <li><a href="#" class="text-base font-normal py-1">Email : contacts@company.com</a></li>
+                <li><a href="#" class="text-base font-normal py-1">254 Walt Whitman Road Brooklyn, NY 11219</a></li>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 600
+        });
+
+        ScrollReveal().reveal('.h1', { delay: 500, origin: 'bottom' });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+</body>
+
+</html>
